@@ -1,0 +1,69 @@
+</div>
+    
+<div class="jumbotron-topper">
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Sobell House Hospice</h1>
+      <p class="lead">For thirty five years Sobell House has been offering expert care and support to those suffering with advanced or progressive life limiting illness. Sobell House is one of three Hospices providing specialist palliative care in Oxfordshire.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row" align="center">
+    <p>&nbsp;</p>
+    <div class="col-lg-4">
+      <img alt="Prof" class="img-circle" src="/assets/charity.jpg" style="width: 140px; height: 140px;" />
+      <p>&nbsp;</p>
+      <p><b>The Charity</b></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+    </div>
+    <div class="col-lg-4">
+      <img alt="Textbook" class="img-circle" src="/assets/hospice.gif" style="width: 140px; height: 140px;" />
+      <p>&nbsp;</p>
+      <p><b>The Hospice</b></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+    </div>
+    <div class="col-lg-4">
+      <img alt="Lecture" class="img-circle" src="/assets/education.jpg" style="width: 140px; height: 140px;" />
+      <p>&nbsp;</p>
+      <p><b>Education Centre</b></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+    </div>
+  </div>
+  <div class="row" align="center">
+    <div class="col-lg-4">
+        <p><a class="btn btn-default" href="/pe_landing">See more ... &raquo;</a></p>
+    </div>
+    <div class="col-lg-4">
+        <p><a href="/texb_landing" class="btn btn-default">See more ... &raquo;</a></p>
+    </div>
+    <div class="col-lg-4">
+        <p><a href="/univ_landing" class="btn btn-default">See more ... &raquo;</a></p>
+    </div>
+    </div>
+  </div>
+
+  <div class="container">
+  <div class="row" align="center">
+      <div class="col-lg-4">
+        <p><%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %></p>
+      </div>
+      <div class="col-lg-4">
+        <p><% if @current_user %>
+            hi
+            <% else %>
+            boo 
+            <% end %>
+        </p>
+      </div>
+  </div>
+  </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/assets/javascripts/bootstrap.min.js"></script>
+<script src="styles/assets/js/docs.min.js"></script>
+<script src="styles/assets/js/ie10-viewport-bug-workaround.js"></script>

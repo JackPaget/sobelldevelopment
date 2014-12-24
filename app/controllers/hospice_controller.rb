@@ -1,0 +1,2 @@
+class HospiceController < ApplicationController
+end

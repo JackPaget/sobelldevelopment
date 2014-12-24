@@ -1,0 +1,579 @@
+  .nav-tabs.nav-justified-social {
+  width: 100%;
+  border-bottom: 0;
+}
+.nav-tabs.nav-justified-social > li {
+  float: none;
+}
+.nav-tabs.nav-justified-social > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.nav-tabs.nav-justified-social > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified-social > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-tabs.nav-justified-social > li > a {
+    margin-bottom: 0;
+  }
+}
+.nav-tabs.nav-justified-social > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.nav-tabs.nav-justified-social > .active > a,
+.nav-tabs.nav-justified-social > .active > a:hover,
+.nav-tabs.nav-justified-social> .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified-social > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-tabs.nav-justified-social > .active > a,
+  .nav-tabs.nav-justified-social > .active > a:hover,
+  .nav-tabs.nav-justified-social > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
+.nav-pills > li {
+  float: left;
+}
+.nav-pills > li > a {
+  border-radius: 4px;
+}
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #337ab7;
+}
+.nav-stacked-social > li {
+  float: none;
+}
+.nav-stacked-social > li + li {
+  margin-top: 2px;
+  margin-left: 0;
+}
+.nav-justified-social {
+  width: 100%;
+}
+.nav-justified-social > li {
+  float: none;
+}
+.nav-justified-social > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.nav-justified-social > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .nav-justified-social > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-justified-social > li > a {
+    margin-bottom: 0;
+  }
+}
+.nav-tabs-justified-social {
+  border-bottom: 0;
+}
+.nav-tabs-justified-social > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.nav-tabs-justified-social > .active > a,
+.nav-tabs-justified-social > .active > a:hover,
+.nav-tabs-justified-social > .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  .nav-tabs-justified-social > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-tabs-justified-social > .active > a,
+  .nav-tabs-justified-social > .active > a:hover,
+  .nav-tabs-justified-social > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
+
+ .nav-tabs.nav-justified-map {
+  width: 100%;
+  border-bottom: 0;
+}
+.nav-tabs.nav-justified-map > li {
+  float: none;
+}
+.nav-tabs.nav-justified-map > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.nav-tabs.nav-justified-map > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified-map > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-tabs.nav-justified-map > li > a {
+    margin-bottom: 0;
+  }
+}
+.nav-tabs.nav-justified-map > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.nav-tabs.nav-justified-map > .active > a,
+.nav-tabs.nav-justified-map > .active > a:hover,
+.nav-tabs.nav-justified-map> .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified-map > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-tabs.nav-justified-map > .active > a,
+  .nav-tabs.nav-justified-map > .active > a:hover,
+  .nav-tabs.nav-justified-map > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
+.nav-pills > li {
+  float: left;
+}
+.nav-pills > li > a {
+  border-radius: 4px;
+}
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #337ab7;
+}
+.nav-stacked-map > li {
+  float: none;
+}
+.nav-stacked-map > li + li {
+  margin-top: 2px;
+  margin-left: 0;
+}
+.nav-justified-map {
+  width: 100%;
+}
+.nav-justified-map > li {
+  float: none;
+}
+.nav-justified-map > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.nav-justified-map > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .nav-justified-map > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-justified-map > li > a {
+    margin-bottom: 0;
+  }
+}
+.nav-tabs-justified-map {
+  border-bottom: 0;
+}
+.nav-tabs-justified-map > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.nav-tabs-justified-map > .active > a,
+.nav-tabs-justified-map > .active > a:hover,
+.nav-tabs-justified-map > .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  .nav-tabs-justified-map > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-tabs-justified-map > .active > a,
+  .nav-tabs-justified-map > .active > a:hover,
+  .nav-tabs-justified-map > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
+
+
+  .navbar-custom {
+  background-color: #0d0062;
+  border-color: #090041;
+}
+.navbar-custom .navbar-brand {
+  color: #f9ab14;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #d58e05;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #f9ab14;
+}
+.navbar-custom .navbar-nav > li:last-child > a {
+  border-right: 0px solid #090041;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #f9ab14;
+  border-left: 1px solid #090041;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #948c60;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #948c60;
+  background-color: #090041;
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #08003e;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #948c60;
+  border-bottom-color: #948c60;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #090041;
+  color: #948c60;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #948c60;
+  border-bottom-color: #948c60;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #f9ab14;
+  border-bottom-color: #f9ab14;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #f9ab14;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #948c60;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #948c60;
+    background-color: #090041;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #f9ab14;
+}
+.navbar-custom .navbar-link:hover {
+  color: #948c60;
+}
+
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+body {
+  padding-top: 20px;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+.nav-justified {
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+.nav-justified > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #f9ab14;
+  text-align: center;
+  background-color: #fff; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0d0062), to(#0d0062));
+  background-image: -webkit-linear-gradient(top, #0d0062 0%, #0d0062 100%);
+  background-image:      -o-linear-gradient(top, #0d0062 0%, #0d0062 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #0d0062), to(#0d0062));
+  background-image:         linear-gradient(top, #0d0062 0%, #0d0062 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 2px solid #fff;
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #f9ab14;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+/* Customize the nav-justified-social links to be fill the entire space of the .navbar */
+
+.nav-justified-social > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #0d0062;
+  text-align: center;
+  background-color: #FFF0B2; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF0B2), to(#FFF0B2));
+  background-image: -webkit-linear-gradient(top, #FFF0B2 0%, #FFF0B2 100%);
+  background-image:      -o-linear-gradient(top, #FFF0B2 0%, #FFF0B2 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #FFF0B2), to(#FFF0B2));
+  background-image:         linear-gradient(top, #FFF0B2 0%, #FFF0B2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 2px solid #FFF0B2;
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #f9ab14;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+/* Customize the nav-justified-social links to be fill the entire space of the .navbar */
+
+.nav-justified-map > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  color: #0d0062;
+  text-align: center;
+  background-color: #FFF; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#FFF));
+  background-image: -webkit-linear-gradient(top, #FFF 0%, #FFF 100%);
+  background-image:      -o-linear-gradient(top, #FFF 0%, #FFF 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #FFF), to(#FFF));
+  background-image:         linear-gradient(top, #FFF 0%, #FFF 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 2px solid #FFF;
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #f9ab14;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.btn-default {
+  color: #f9ab14;
+  background: #0d0062;
+  border-color: #0d0062;
+  text-shadow: 0px 0px 0px #f9ab14;
+}
+
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.jumbotron-topper {
+  padding: 5px 1px;
+  margin-bottom: 0px;
+  color: #f9ab14;
+  background-color: #0d0062;
+}

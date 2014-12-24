@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= "Sobell House" %></title>
+   <!-- Javascripts
+    ================================================== -->
+   <%= javascript_include_tag :all %>
+   <!-- Stylesheets
+    ================================================== -->
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application" %>
+
+    <%= csrf_meta_tags %>
+  
+  </head>
+  <body>
+
+    <div class="jumbotron-bottombar">
+      <div class="container">
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="jumbotron-header">
+        <div class="container">
+          <table>
+            <tr>
+              <td vertical-align="middle">
+              <%=image_tag("sobell.gif", alt: "Example Image", width: "350px")%>
+              </td>
+              <td width="30%">
+              <p>&nbsp;</p>
+              </td>
+              <td align="center" vertical-align="middle"> 
+              <p><a href="/hospice">The Hospice</a><a href="#"> | </a><a href="/charity">The Charity</a><a href="#"> | </a><a href="/education">The Study Centre</a><p>
+              <p><input class="form-control" id="q_title_or_fie_or_cat_or_uploader_or_keywords_cont" name="q[title_or_fie_or_cat_or_uploader_or_keywords_cont]" placeholder="Search" type="text" />
+              <p>
+              <p><a href="/basket" role="button" ><span class="glyphicon glyphicon-shopping-cart">(0)</span></a><a href="#"> | </a><a href="#">Shop Finder</a><a href="#"> | </a><a href="#">Secure Area</a><p>
+              </td>
+            </tr>
+          </table>   
+        </div>
+        <p>&nbsp;</p>
+          <ul class="nav nav-justified">
+            <li><a href="/">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="/hospice">Our Hospice</a></li>
+            <li><a href="/charity">The Charity</a></li>
+            <li><a href="/education">Education</a></li>
+            <li><a href="/donate">Support Us</a></li>
+          </ul>
+      </div>
+
+      <%= yield %>
+
+        </div>
+        <div class="jumbotron-social">
+          <div class="container">
+          <ul class="nav nav-justified-social">
+            <li><a href="#"><span class="fa-stack"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x"></i></span><p>Find Us on Facebook</p></a></li>
+            <li><a href="#"><span class="fa-stack"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x"></i></span><p>Follow Us on Twitter</p></a></li>
+            <li><a href="#"><span class="fa-stack"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x"></i></span><p>Follow Us on Google<sup>+</sup></p></a></li>
+            <li><a href="#"><span class="fa-stack"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-youtube fa-stack-1x"></i></span><p>Watch Us on YouTube</p></a></li>
+            <li><a href="#"><span class="fa-stack"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-pinterest fa-stack-1x"></i></span><p>Pin Us on PinInterest</p></a></li>
+            <li><a href="#"><span class="fa-stack"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x"></i></span><p>See Us on Instagram</p></a></li>
+          </ul>
+        </div>
+        </div>
+        <div class="container">
+        <div class="jumbotron-footer">
+          <p>&nbsp;</p>
+          <ul class="nav nav-justified-map">
+            <li><a href="/hospice"><b>The Hospice</b></a></li>
+            <li><a href="/education"><b>Study Centre</b></a></li>
+            <li><a href="/charity"><b>The Charity</b></a></li>
+            <li><a href="/online"><b>Sobell Online</b></a></li>
+            <li><a href="/donate"><b>Supporting Sobell</b></a></li>
+            <li><a href="#"><span class="fa-stack"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-arrow-up fa-stack-1x"></i></span><b>To top</b></a></li>
+          </ul>
+        <p><a href="#">&copy; 2014 Sobell House Hospice Charity &middot; Charity Registration No 1118646 &middot;</a> <a href="/contacts">Contact Us</a> &middot; <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></p> 
+            </div>
+      </div>
+    </div>
+      
+      <div class="jumbotron-bottombar">
+        <div class="container">
+        </div>
+      </div>      
+
+  </body>
+</html>
