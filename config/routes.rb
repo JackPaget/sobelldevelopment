@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'sessions/new'
+
+  get 'sessions/destroy'
+
+  get 'staff/new'
+
+  get 'staff/create'
+
   get 'donate/home'
 
   get 'online/home'
@@ -7,7 +15,7 @@ Rails.application.routes.draw do
 
   get 'education/home'
 
-  devise_for :users 
+#  devise_for :users 
 
 
 
@@ -19,6 +27,16 @@ Rails.application.routes.draw do
   get 'education' => 'education#home'
   get 'donate' => 'donate#home'
   get 'online' => 'online#home'
+
+    #Sessions Users
+  get "logout_staff" => "sessions#destroy", :as => "logout_user"
+  post "login_staff" => "sessions#new", :as => "login_user"
+
+  #Users
+  get "signup" => "staff#new", :as => "signup"
+
+  resources :staffs
+  resources :sessions
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

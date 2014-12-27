@@ -4766,8 +4766,8 @@ a.badge:focus {
 }
 
 .jumbotron-bottombar {
-  padding: 15px 1px;
-  margin-bottom: 1px;
+  padding: 10px 0px;
+  margin-bottom: 0px;
   color: inherit;
   background-color: #0d0062;
 }
@@ -5057,7 +5057,7 @@ a.thumbnail.active {
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
-  background-color: #fff;
+  background-color: #0d0062;
   border: 1px solid #ddd;
 }
 .list-group-item:first-child {
@@ -5070,16 +5070,16 @@ a.thumbnail.active {
   border-bottom-left-radius: 4px;
 }
 a.list-group-item {
-  color: #555;
+  color: #f9ab14;
 }
 a.list-group-item .list-group-item-heading {
   color: #333;
 }
 a.list-group-item:hover,
 a.list-group-item:focus {
-  color: #555;
+  color: #f9ab14;
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: #0d0062;
 }
 .list-group-item.disabled,
 .list-group-item.disabled:hover,
